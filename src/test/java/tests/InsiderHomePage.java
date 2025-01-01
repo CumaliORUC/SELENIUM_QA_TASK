@@ -31,6 +31,7 @@ public class InsiderHomePage{
         softAssert.assertTrue(careerPage.locations.isDisplayed());
         softAssert.assertTrue(careerPage.lifeAtInsider.isDisplayed());
         softAssert.assertTrue(careerPage.findYourCalling.isDisplayed());
+        softAssert.assertAll();
     }
 
 }
